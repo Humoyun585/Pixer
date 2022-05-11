@@ -95,9 +95,7 @@ width: 600px;
 margin-left: 300px;}
 
 .said-list{
-    display: flex;
-flex-direction: column;
-align-items: center;
+text-align: center;
 padding: 24px;
 gap: 16px;
 width: 320px;
@@ -105,7 +103,12 @@ height: 260px;
 background: #FFFFFF;
 box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
 border-radius: 5px;
+margin: 20px;
 }
 
-.said .container{display: flex;}
+.said .container{display: flex;
+
+    justify-content: center;
+flex-wrap:wrap;
+}
 
