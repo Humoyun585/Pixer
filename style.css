@@ -41,7 +41,10 @@ margin-left: 50px;
 font-size: 15px;
 }
 
-.nav-link{color: darkgrey;}
+.nav-item:hover{background-color:rgb(140, 179, 216) ;
+padding: 5px 10px;}
+
+.nav-link{color: rgb(0, 8, 19);}
 
 .navv-link{color: white;}
 
@@ -88,9 +91,11 @@ padding: 10px 20px;}
 
 .body .container{margin-top: 100px;}
 
-.body-headline{text-align: center;}
+.body-headline{text-align: center;
+font-size: 40px;}
 
 .body-text{text-align: center;
+    margin: 30px 0px;
 width: 600px;
 margin-left: 300px;}
 
@@ -112,3 +117,46 @@ margin: 20px;
 flex-wrap:wrap;
 }
 
+
+.sidebar .container{margin-top: 100px;}
+
+.sidebar-title{text-align: center;
+font-size: 40px;}
+
+.sidebar-text{text-align: center;
+    margin: 30px 0px;
+width: 600px;
+margin-left: 300px;}
+
+.aside{margin-top: 100px;}
+.aside .container{display: flex;
+align-items: center;
+justify-content: space-evenly;}
+
+.aside-title{margin-bottom: 10px;}
+
+.combo{margin-top: 100px;}
+.combo .container{display: flex;
+align-items: center;
+justify-content: space-evenly;}
+
+.combo-title{margin-bottom: 10px;}
+
+.btn .container{display: flex;
+align-items: center;
+justify-content: center;}
+
+.button-btn{padding: 10px 30px;
+margin-top: 50px;
+background-color: #00BAFC;
+color:white;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;}
+
+
+.desk-list{text-align: center;
+    margin-left: 300px;
+width: 650px;
+margin-top: 50px;}
