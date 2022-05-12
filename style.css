@@ -147,16 +147,88 @@ align-items: center;
 justify-content: center;}
 
 .button-btn{padding: 10px 30px;
+    margin-bottom: 80px;
 margin-top: 50px;
 background-color: #00BAFC;
-color:white;
 font-weight: 700;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;}
 
 
+.dask{background-color: #00BAFC;
+padding: 30px;}
+
 .desk-list{text-align: center;
-    margin-left: 300px;
-width: 650px;
-margin-top: 50px;}
+margin-left: 180px;
+padding: 20px;
+width: 750px;
+margin-top: 10px;}
+
+.desk-title{color: white;
+font-size: 30px;}
+
+.desk-text{margin-top: 20px;
+color: white;
+font-size: 20px;}
+
+
+.desktob .container{padding: 10px ;
+    width: 300px;
+   
+    background-color: white;}
+    
+.desktob-list{text-align: center;
+margin: 5px ;}
+
+
+.input-name{padding: 10px 40px;
+    background: #a79d9d;
+    border-radius: 5px;}
+
+.input-phone{padding: 10px 40px;
+    background: #a79d9d;
+    margin: 20px;
+    border-radius: 5px;}
+
+.input-type{padding: 10px 40px;
+    background:  #a79d9d;
+    border-radius: 5px;}
+
+.desktob-btn{padding: 10px 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: #00BAFC;
+    color:white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;}
+
+.footer{background-color: black;}
+
+.footer .container{display: flex;
+justify-content: space-evenly;
+padding: 50px;}
+
+.last-list{width: 280px;}
+.last-title{color: white;}
+.last-text{margin-top: 10px;
+color: white;}
+
+.short-item{margin-top: 5px;
+color: white;}
+
+.find{display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100px;
+}
+
+.bar-list{margin-top: 10px;}
+.bar-lists{margin-top: 10px;
+margin-left: 10px;
+color: white;}
+
+.bar-title{color: white;}
